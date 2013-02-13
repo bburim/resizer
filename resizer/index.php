@@ -2,7 +2,7 @@
 
 define('DS',                        DIRECTORY_SEPARATOR);
 define('RSZR_DIMENSIONS_DELIMITER', 'x');
-define('RSZR_ORIGINALS_BASE_PATH',  realpath(getcwd() . DS . '..' . DS . 'images') . DS);
+define('RSZR_ORIGINALS_BASE_PATH',  realpath(getcwd() . DS . '..') . DS);
 define('RSZR_CACHED_IMAGES_PATH',   realpath(getcwd() . DS . '..' . DS . 'cache') . DS);
 
 // Find out currrent directory name
