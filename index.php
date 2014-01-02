@@ -1,4 +1,8 @@
 <?php
+/**
+ * This file contains few simple usecases which allow to test how script works.
+ */
+
 
 define('DS', DIRECTORY_SEPARATOR);
 
